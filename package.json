@@ -1,0 +1,22 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hangman.js",
+  "scripts": {
+    "test": "jest",
+    "play": "node -e 'require(\"./hangman\").gameFunction()'",
+    "coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.3"
+  },
+  "dependencies": {
+    "figlet": "^1.5.2",
+    "jest-each": "^29.0.3",
+    "prompt-sync": "^4.2.0"
+  }
+}
