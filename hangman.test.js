@@ -1,4 +1,3 @@
-const { describe } = require("yargs");
 const { randomWord, hangmanGame, checkInput, updateGuess } = require("./hangman.js");
 const each = require("jest-each").default;
 
@@ -62,8 +61,8 @@ describe("hangman game", () => {
             expect(updateGuess).toBeDefined();
         })
 
-        each([
+        // each([
 
-        ].test("Should return %s given %s"), (expec))
+        // ].test("Should return %s given %s"), (expec))
     })
 })
